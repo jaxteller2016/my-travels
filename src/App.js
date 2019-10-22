@@ -4,6 +4,8 @@ import React, {Component} from 'react';
 
 import Travel from "./TravelComponent";
 
+import Travels from "./Travels";
+
 class App extends Component {
   render() {
     return (
@@ -20,6 +22,7 @@ class App extends Component {
               photo="https://image.shutterstock.com/z/stock-photo-the-palace-of-the-parliament-bucharest-romania-614925701.jpg"
               distance="Road distance from Bucharest 0 km"
           />
+          <Travels/>
         </div>
     );
   }
